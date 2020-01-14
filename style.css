@@ -5,18 +5,20 @@ body {
 /* First row */
 .row-1 {
    display: flex;
-   margin-left: 50%;
+   margin-left: 45%;
    height: 8em;
 }
 
 .logo {
    margin-left: 0;
    top: 2em;
+   width: 70px;
+   height: 27px;
 }
 
 .row-1 h4 {
    margin-right: 2em;
-   font-size: 140%;
+   font-size: 130%;
    font-weight: 650;
 }
 
@@ -72,7 +74,7 @@ body {
 
 .row-2 .logos {
    display: flex;
-   margin-left: 55%;
+   margin-left: 50%;
 }
 
 .logos .icons-1,
