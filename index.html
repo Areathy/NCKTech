@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <meta name="author" content="Henrietha C.N." />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Orbitron|Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>NCKTech</title>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row row-1">
+        <h4>TRIPS</h4>
+        <h4>RECENTLY VIEWED</h4>
+        <h4>BOOKINGS</h4>
+        <div><img src="nck.png" alt="Avater" /></div>
+      </div>
+      <hr />
+      <div class="row row-2">
+        <div class="col-md">
+           <div>
+            <h3>Payment Information</h3>
+            <p class="side-info">choose your method of payment.</p>
+           </div>
+          
+
+
+          <div class="card">
+             <div class="card-text">
+               <p class="title">CARD NUMBER</p>
+               <p>4324 5433 9382 1030</p>
+             </div>
+            <dib>
+               <i class="fas fa-rss"></i>
+               <div class="card__reader">
+               <div class="card__reader--risk card__reader--risk-one"></div>
+               <div class="card__reader--risk card__reader--risk-two"></div>
+               <div class="card__reader--risk card__reader--risk-three"></div>
+               <div class="card__reader--risk card__reader--risk-four"></div>
+               </div>
+            </dib>
+            <div class="date card-text">
+              <p class="title">EXPIRATION DATE</p>
+              <p>03/24</p>
+              <p>John Doe</p>
+            </div>
+            <div class="card__flag">
+              <div class="card__flag--red"></div>
+              <div class="card__flag--yellow"></div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+        <div class="col-md">
+          <div class="logos">
+            <div class="icons-1">
+              <i class="fab fa-cc-visa icons"></i>
+              <!-- <i class="fab fa-cc-discover"></i> -->
+              <div class="discover icons">
+                <h3>
+                  <b
+                    >DIS<span class="orange"><i class="fas fa-circle"></i></span
+                    >VER</b
+                  >
+                </h3>
+              </div>
+            </div>
+            <div class="icons-2">
+              <i
+                class="fas fa-circle icons"
+                style="color: rgb(241, 246, 247);"
+              ></i>
+              <p>
+                <i class="fab fa-paypal icons"></i
+                ><span class="span-pay">Pay</span
+                ><span class="span-pal">Pal</span>
+              </p>
+            </div>
+          </div>
+          <div>
+            <form>
+              <div class="form-row">
+                <div class="col-md inputt input-1">
+                  <label for="Credit card number">Credit card number</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="Credit card number"
+                    value="4324 5433 9382 1030"
+                    required
+                  />
+                </div>
+                <div class="col-md inputt">
+                  <label for="Expiration date">Expiration date</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="Expiration date"
+                    value="03/24
+                   "
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md inputt input-1">
+                  <label for="Security code">Security code</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="Security code"
+                    value="420"
+                    required
+                  />
+                </div>
+                <div class="col-md inputt">
+                  <label for="Postal Code">Postal Code</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="Postal Code"
+                    value="10119"
+                    required
+                  />
+                </div>
+              </div>
+            </form>
+            <div class="form-row">
+              <p class="inputt">
+                <i class="fas fa-dot-circle pargh"></i>Use this card for next time
+                purchase
+              </p>
+            </div>
+            <div class="form-row">
+              <button type="submit" class="btn first-button">Add card</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="row row-3">
+        <div class="col-md">
+          <h5><b>Subtotal</b></h5>
+          <h5><b>Estimated TAX</b></h5>
+          <h5>
+            <b>Promotional Code: <span>Z4KXLM9A</span></b>
+          </h5>
+        </div>
+        <div class="col-md">
+          <div class="float-right">
+            <h5><b>₦2,497.00</b></h5>
+            <h5><b>₦119.64</b></h5>
+            <h5><b>₦-60.00</b></h5>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="row row-4">
+        <div class="col-md">
+          <button type="submit" class="btn btn-primary">
+            Complete payment
+          </button>
+        </div>
+        <div class="col-md"><h4 class="float-right">TOTAL:₦2556.64</h4></div>
+      </div>
+    </div>
+  </body>
+</html>
