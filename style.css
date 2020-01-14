@@ -9,6 +9,11 @@ body {
    height: 8em;
 }
 
+.logo {
+   margin-left: 0;
+   top: 2em;
+}
+
 .row-1 h4 {
    margin-right: 2em;
    font-size: 140%;
